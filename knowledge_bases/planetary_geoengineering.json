@@ -1,0 +1,23 @@
+{
+  "domain": "Planetary Geoengineering & Solar Radiation Management",
+  "baseline_dogmas": [
+    "Stratospheric aerosol injection can be calibrated symmetrically across all sovereign borders.",
+    "Termination shock can be prevented by multi-decade treaty stability."
+  ],
+  "human_blindspots": [
+    "Localized monsoon disruption in non-signatory global south agriculture",
+    "Moral hazard: industrial polluters treating aerosol shielding as permission to double emissions"
+  ],
+  "unasked_questions": [
+    {
+      "question": "What happens when a single unilateral actor deploys atmospheric sulfur aerosols without multilateral treaty consent?",
+      "curiosity_score": 98,
+      "category": "ethical_vacuum"
+    },
+    {
+      "question": "Are we cooling the planet to preserve the very consumption habits that caused global warming?",
+      "curiosity_score": 96,
+      "category": "unexamined_assumption"
+    }
+  ]
+}
