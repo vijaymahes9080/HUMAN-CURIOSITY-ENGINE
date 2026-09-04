@@ -1,0 +1,23 @@
+{
+  "domain": "Deep Space Extraction & Asteroid Commons",
+  "baseline_dogmas": [
+    "The 1967 Outer Space Treaty provides adequate legal clarity for private platinum asteroid harvesting.",
+    "Off-world resource extraction automatically benefits all terrestrial citizens equally."
+  ],
+  "human_blindspots": [
+    "Terrestrial economic shockwaves when a single asteroid delivers 10x the world's annual supply of rare metals",
+    "Orbital kinetic leverage: private mining entities possessing orbital mass redirection capability"
+  ],
+  "unasked_questions": [
+    {
+      "question": "What happens to developing mining economies when asteroid extraction drops rare earth metal prices to near zero overnight?",
+      "curiosity_score": 95,
+      "category": "system_blindspot"
+    },
+    {
+      "question": "Who controls sovereign military leverage when private corporations possess the capability to redirect orbital asteroids?",
+      "curiosity_score": 97,
+      "category": "future_paradox"
+    }
+  ]
+}
