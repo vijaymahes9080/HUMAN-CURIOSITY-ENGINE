@@ -19,6 +19,9 @@ import { UnaskedQuestion } from '../types';
 import { CuriosityScoreBadge } from '../components/questions/CuriosityScoreBadge';
 import { QuestionDNABadge } from '../components/questions/QuestionDNABadge';
 import { DiscoveryPathVisualizer } from '../components/questions/DiscoveryPathVisualizer';
+import { CuriosityRadarChart } from '../components/common/CuriosityRadarChart';
+import { CuriosityScoreGauge } from '../components/common/CuriosityScoreGauge';
+import { DialecticDiffViewer } from '../components/questions/DialecticDiffViewer';
 import { soundManager } from '../services/sound';
 
 interface ExplorerPageProps {
@@ -80,29 +83,51 @@ export const ExplorerPage: React.FC<ExplorerPageProps> = ({
         </div>
       </div>
 
-      {/* Main Question Hero Banner */}
+      {/* Main Question Hero Banner with Radar & Gauge */}
       <div className="glass-panel rounded-3xl p-6 sm:p-8 border border-white/15 space-y-6 relative overflow-hidden">
-        <div className="flex flex-wrap items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <span className="text-xs font-mono font-bold text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/30">
-              UNASKED QUESTION EXPLORER
-            </span>
-            <span className="text-xs font-mono text-slate-400">
-              Domain: <strong className="text-slate-200">{question.topic}</strong>
-            </span>
+        <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+          
+          <div className="space-y-4 flex-1">
+            <div className="flex items-center gap-2">
+              <span className="text-xs font-mono font-bold text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/30">
+                UNASKED QUESTION EXPLORER
+              </span>
+              <span className="text-xs font-mono text-slate-400">
+                Domain: <strong className="text-slate-200">{question.topic}</strong>
+              </span>
+            </div>
+
+            <h1 className="font-heading font-extrabold text-2xl sm:text-4xl text-white leading-tight">
+              {question.title}
+            </h1>
           </div>
 
-          <CuriosityScoreBadge score={question.curiosity_score} size="lg" />
-        </div>
+          <div className="flex items-center gap-6 shrink-0 bg-slate-950/60 p-4 rounded-2xl border border-white/10">
+            <CuriosityScoreGauge score={question.curiosity_score} size={110} strokeWidth={8} />
+            <div className="hidden sm:block">
+              <CuriosityRadarChart dna={question.dna} size={150} />
+            </div>
+          </div>
 
-        <h1 className="font-heading font-extrabold text-2xl sm:text-4xl text-white leading-tight">
-          {question.title}
-        </h1>
+        </div>
 
         <div className="pt-2">
           <QuestionDNABadge dna={question.dna} initialExpanded={true} />
         </div>
       </div>
+
+      {/* Dialectical Challenges if any */}
+      {question.challenges.length > 0 && (
+        <div className="space-y-3">
+          {question.challenges.map((ch) => (
+            <DialecticDiffViewer
+              key={ch.id}
+              originalTitle={question.title}
+              challenge={ch}
+            />
+          ))}
+        </div>
+      )}
 
       {/* Explainable AI Discovery Path */}
       <DiscoveryPathVisualizer path={question.discovery_path} />
