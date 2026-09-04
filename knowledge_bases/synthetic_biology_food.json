@@ -1,0 +1,23 @@
+{
+  "domain": "Synthetic Biology & Precision Fermentation Food Supply",
+  "baseline_dogmas": [
+    "Synthesizing exact caloric proteins eliminates agricultural land use without nutritional trade-offs.",
+    "Centralized bio-reactor fermentation creates resilient, localized food security."
+  ],
+  "human_blindspots": [
+    "Generational depletion of complex phytonutrients and soil-microbiome symbiotic diversity",
+    "Patent monopsony: five corporations owning the intellectual property for basic human amino acid production"
+  ],
+  "unasked_questions": [
+    {
+      "question": "What happens to the human gut microbiome after three generations of consuming purely precision-fermented nutrients?",
+      "curiosity_score": 94,
+      "category": "system_blindspot"
+    },
+    {
+      "question": "Who owns the genetic blueprints when staple human calories become proprietary software code?",
+      "curiosity_score": 97,
+      "category": "ethical_vacuum"
+    }
+  ]
+}
