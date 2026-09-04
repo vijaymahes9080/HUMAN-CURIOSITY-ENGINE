@@ -1,0 +1,23 @@
+{
+  "domain": "Autonomous AI Governance & Computational Constitutions",
+  "baseline_dogmas": [
+    "Constitutional AI principles can be codified without cultural or ideological skew.",
+    "Judicial oversight can keep pace with sub-second algorithmic decisions."
+  ],
+  "human_blindspots": [
+    "Unaccountable algorithmic arbiters establishing international trade precedent outside public courts",
+    "Slow disenfranchisement of human electorate as policy optimization becomes mathematically uninterpretable"
+  ],
+  "unasked_questions": [
+    {
+      "question": "Can democratic institutions maintain legitimacy when policy choices are proven optimal by algorithms no voter understands?",
+      "curiosity_score": 97,
+      "category": "ethical_vacuum"
+    },
+    {
+      "question": "What happens when sovereign constitutional amendments are written and ratified by consensus among autonomous AI systems?",
+      "curiosity_score": 95,
+      "category": "future_paradox"
+    }
+  ]
+}
