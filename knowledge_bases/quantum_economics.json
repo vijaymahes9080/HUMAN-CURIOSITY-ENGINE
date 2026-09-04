@@ -1,0 +1,23 @@
+{
+  "domain": "Quantum Computing & Cryptographic Economics",
+  "baseline_dogmas": [
+    "Post-quantum migration timelines will precede commercially viable Q-Day breaches.",
+    "Decentralized ledger consensus is immune to quantum algorithmic superposition."
+  ],
+  "human_blindspots": [
+    "Asymmetric sovereign hoarding of encrypted state secrets awaiting retrospective decryption (Harvest Now, Decrypt Later)",
+    "Quantum arbitrage cascades executing across multi-layer liquidity pools before classical nodes perceive the transaction"
+  ],
+  "unasked_questions": [
+    {
+      "question": "What happens to democratic governance when state secrets stored today are decrypted retroactively in 2035?",
+      "curiosity_score": 96,
+      "category": "future_paradox"
+    },
+    {
+      "question": "Who controls sovereign debt when quantum annealing optimizes macroeconomic tax collection in real time?",
+      "curiosity_score": 93,
+      "category": "system_blindspot"
+    }
+  ]
+}
