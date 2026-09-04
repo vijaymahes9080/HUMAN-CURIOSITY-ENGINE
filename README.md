@@ -10,6 +10,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/vijaymahes9080/HUMAN-CURIOSITY-ENGINE?style=social)](https://github.com/vijaymahes9080/HUMAN-CURIOSITY-ENGINE)
 
+<div align="center">
+  <img src="./docs/images/hero_light.jpg" alt="Human Curiosity Engine Light Theme Interface" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);" />
+</div>
+
 ---
 
 ## 🌟 The Core Paradigm Shift
@@ -30,6 +34,12 @@ Instead of answering predefined queries, this engine interrogates reality to ide
 3. **Systemic Contradictions & Paradoxes** (Speed vs Wisdom, Efficiency vs Fragility)
 4. **Future Cascade Horizons** (2030, 2035, 2040, 2050 timeline simulations)
 5. **High-Novelty Unasked Questions** with **Question DNA (0–100 Curiosity Score)**
+
+---
+
+<div align="center">
+  <img src="./docs/images/blindspot_map_light.jpg" alt="Interactive Human Blindspot Map & Question DNA in Light Theme" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);" />
+</div>
 
 ---
 
@@ -69,6 +79,12 @@ graph TD
 | **🔄 Agent 6: Reverse Thinking** | Inverts foundational premises, removal scenarios, and moral hazard traps | Inversion vectors & anti-fragility questions |
 | **❓ Agent 7: Question Generation** | Synthesizes unasked questions across 8 categorical taxonomies | Categorized unasked question candidates |
 | **⭐ Agent 8: Question Ranking** | Calculates 8-dimensional DNA vectors and composite Curiosity Scores | Ranked questions with composite scores (0–100) |
+
+---
+
+<div align="center">
+  <img src="./docs/images/linkedin_showcase.jpg" alt="Human Curiosity Engine Architecture Showcase" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);" />
+</div>
 
 ---
 
