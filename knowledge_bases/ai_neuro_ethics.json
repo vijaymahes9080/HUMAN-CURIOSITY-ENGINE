@@ -1,0 +1,23 @@
+{
+  "domain": "Artificial Intelligence & Neuro-Cognitive Ethics",
+  "baseline_dogmas": [
+    "Cognitive offloading is purely additive and harmless to biological intuition.",
+    "Optimization loss convergence correlates directly with semantic wisdom."
+  ],
+  "human_blindspots": [
+    "Tacit first-principles reasoning atrophy in post-AI software engineers",
+    "Epistemic collapse from generative models recursively ingesting synthetic web outputs"
+  ],
+  "unasked_questions": [
+    {
+      "question": "What cognitive faculties will permanently disappear in humans once AI makes thinking frictionless?",
+      "curiosity_score": 97,
+      "category": "system_blindspot"
+    },
+    {
+      "question": "How do we preserve the human capacity for contemplation in an answer-saturated society?",
+      "curiosity_score": 95,
+      "category": "reverse_paradigm"
+    }
+  ]
+}
