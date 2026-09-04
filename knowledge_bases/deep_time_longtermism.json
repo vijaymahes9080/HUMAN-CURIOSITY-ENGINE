@@ -1,0 +1,23 @@
+{
+  "domain": "Deep-Time Economics & 7-Generation Longtermism",
+  "baseline_dogmas": [
+    "Economic discount rates greater than zero correctly value the welfare of future humans.",
+    "Technological progress guarantees that future generations will always be richer and more capable than today."
+  ],
+  "human_blindspots": [
+    "Zero constitutional representation for humans born after the year 2060",
+    "Irreversible planetary boundary depletion treated as non-cost externalities on corporate balance sheets"
+  ],
+  "unasked_questions": [
+    {
+      "question": "What would global GDP look like if it subtracted every unpayable environmental debt transferred to our grandchildren?",
+      "curiosity_score": 98,
+      "category": "missing_stakeholder"
+    },
+    {
+      "question": "How can democratic parliaments create binding veto power for ministers representing unborn generations?",
+      "curiosity_score": 93,
+      "category": "reverse_paradigm"
+    }
+  ]
+}
