@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/HUMAN-CURIOSITY-ENGINE/',
   plugins: [
     react(),
     tailwindcss(),
@@ -11,5 +12,8 @@ export default defineConfig({
   server: {
     port: 3000,
     host: true,
+  },
+  build: {
+    outDir: 'dist',
   },
 });
