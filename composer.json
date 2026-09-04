@@ -1,0 +1,12 @@
+{
+    "name": "vijaymahes/human-curiosity-engine",
+    "description": "HUMAN CURIOSITY ENGINE",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vijay Mahes",
+            "email": "Vijaypradhap2004@gmail.com"
+        }
+    ],
+    "require": {}
+}
