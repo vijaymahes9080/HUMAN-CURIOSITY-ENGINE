@@ -1,0 +1,23 @@
+{
+  "domain": "Brain-Computer Neural Interfaces & Cognitive Privacy",
+  "baseline_dogmas": [
+    "Neural data encryption standards can fully safeguard private subjective thought.",
+    "Bidirectional cortical stimulation will remain opt-in and non-coercive."
+  ],
+  "human_blindspots": [
+    "Subconscious intent telemetry harvested before conscious awareness forms in the brain",
+    "Employment discrimination based on passive cognitive latency metrics streamed from neural implants"
+  ],
+  "unasked_questions": [
+    {
+      "question": "What constitutes mental privacy when an employer's neural interface registers your doubt before you speak?",
+      "curiosity_score": 98,
+      "category": "ethical_vacuum"
+    },
+    {
+      "question": "How do we prevent neuro-algorithmic feedback loops from engineering human desires directly in the cortex?",
+      "curiosity_score": 96,
+      "category": "system_blindspot"
+    }
+  ]
+}
